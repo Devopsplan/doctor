@@ -1,0 +1,50 @@
+@charset "UTF-8";
+@charset "UTF-8";
+
+/* Body */
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #ff6b6b, #f06595);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Error box */
+.error-box {
+    background-color: white;
+    padding: 30px;
+    width: 350px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Heading */
+.error-box h2 {
+    color: #c0392b;
+    margin-bottom: 15px;
+}
+
+/* Message */
+.error-box p {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Back link */
+.error-box a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #c0392b;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.error-box a:hover {
+    background-color: #a93226;
+}
