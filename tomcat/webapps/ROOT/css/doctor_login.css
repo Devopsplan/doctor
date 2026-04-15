@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* Doctor Login Page */
+
+/* Body layout */
+body {
+    background: linear-gradient(135deg, #16a085, #1abc9c);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Login box */
+form {
+    background-color: #ffffff;
+    padding: 30px;
+    width: 360px;
+    border-radius: 8px;
+    box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+/* Inputs */
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #16a085;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #12876f;
+}

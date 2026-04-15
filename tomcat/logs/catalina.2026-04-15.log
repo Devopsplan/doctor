@@ -1,0 +1,133 @@
+15-Apr-2026 17:35:37.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.54
+15-Apr-2026 17:35:37.876 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 30 2026 22:31:53 UTC
+15-Apr-2026 17:35:37.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.54.0
+15-Apr-2026 17:35:37.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+15-Apr-2026 17:35:37.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.17.0-20-generic
+15-Apr-2026 17:35:37.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+15-Apr-2026 17:35:37.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-21-openjdk-amd64
+15-Apr-2026 17:35:37.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.10+7-Ubuntu-124.04
+15-Apr-2026 17:35:37.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+15-Apr-2026 17:35:37.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /media/vishal/hdd/doctor/doctor/tomcat
+15-Apr-2026 17:35:37.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /media/vishal/hdd/doctor/doctor/tomcat
+15-Apr-2026 17:35:37.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/media/vishal/hdd/doctor/doctor/tomcat/conf/logging.properties
+15-Apr-2026 17:35:37.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Apr-2026 17:35:37.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+15-Apr-2026 17:35:37.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+15-Apr-2026 17:35:37.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+15-Apr-2026 17:35:37.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+15-Apr-2026 17:35:37.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+15-Apr-2026 17:35:37.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+15-Apr-2026 17:35:37.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+15-Apr-2026 17:35:37.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+15-Apr-2026 17:35:37.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+15-Apr-2026 17:35:37.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+15-Apr-2026 17:35:37.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/media/vishal/hdd/doctor/doctor/tomcat
+15-Apr-2026 17:35:37.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/media/vishal/hdd/doctor/doctor/tomcat
+15-Apr-2026 17:35:37.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/media/vishal/hdd/doctor/doctor/tomcat/temp
+15-Apr-2026 17:35:37.886 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+15-Apr-2026 17:35:38.117 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+15-Apr-2026 17:35:38.129 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1084)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:520)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:955)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:709)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:732)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:299)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:577)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:264)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:219)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1432)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1445)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:633)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:82)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1082)
+		... 11 more
+15-Apr-2026 17:35:38.130 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [369] milliseconds
+15-Apr-2026 17:35:38.157 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+15-Apr-2026 17:35:38.158 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.54]
+15-Apr-2026 17:35:38.164 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/media/vishal/hdd/doctor/doctor/tomcat/webapps/host-manager]
+15-Apr-2026 17:35:38.414 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/vishal/hdd/doctor/doctor/tomcat/webapps/host-manager] has finished in [250] ms
+15-Apr-2026 17:35:38.415 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/media/vishal/hdd/doctor/doctor/tomcat/webapps/manager]
+15-Apr-2026 17:35:38.436 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/vishal/hdd/doctor/doctor/tomcat/webapps/manager] has finished in [21] ms
+15-Apr-2026 17:35:38.436 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/media/vishal/hdd/doctor/doctor/tomcat/webapps/ROOT]
+15-Apr-2026 17:35:38.627 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Apr-2026 17:35:38.632 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/vishal/hdd/doctor/doctor/tomcat/webapps/ROOT] has finished in [196] ms
+15-Apr-2026 17:35:38.632 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/media/vishal/hdd/doctor/doctor/tomcat/webapps/examples]
+15-Apr-2026 17:35:38.773 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/vishal/hdd/doctor/doctor/tomcat/webapps/examples] has finished in [141] ms
+15-Apr-2026 17:35:38.774 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/media/vishal/hdd/doctor/doctor/tomcat/webapps/docs]
+15-Apr-2026 17:35:38.788 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/vishal/hdd/doctor/doctor/tomcat/webapps/docs] has finished in [14] ms
+15-Apr-2026 17:35:38.792 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [660] milliseconds
+15-Apr-2026 17:35:38.795 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:577)
+		at java.base/sun.nio.ch.Net.bind(Net.java:566)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:391)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:278)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:531)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:848)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:796)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+15-Apr-2026 17:35:38.795 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+15-Apr-2026 17:35:38.795 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+15-Apr-2026 17:35:38.814 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+15-Apr-2026 17:35:38.814 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+15-Apr-2026 17:36:44.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.54
+15-Apr-2026 17:36:44.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 30 2026 22:31:53 UTC
+15-Apr-2026 17:36:44.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.54.0
+15-Apr-2026 17:36:44.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+15-Apr-2026 17:36:44.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.17.0-20-generic
+15-Apr-2026 17:36:44.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+15-Apr-2026 17:36:44.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-21-openjdk-amd64
+15-Apr-2026 17:36:44.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.10+7-Ubuntu-124.04
+15-Apr-2026 17:36:44.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+15-Apr-2026 17:36:44.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /media/vishal/hdd/doctor/doctor/tomcat
+15-Apr-2026 17:36:44.319 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /media/vishal/hdd/doctor/doctor/tomcat
+15-Apr-2026 17:36:44.325 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/media/vishal/hdd/doctor/doctor/tomcat/conf/logging.properties
+15-Apr-2026 17:36:44.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Apr-2026 17:36:44.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+15-Apr-2026 17:36:44.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+15-Apr-2026 17:36:44.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+15-Apr-2026 17:36:44.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+15-Apr-2026 17:36:44.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+15-Apr-2026 17:36:44.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+15-Apr-2026 17:36:44.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+15-Apr-2026 17:36:44.327 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+15-Apr-2026 17:36:44.327 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+15-Apr-2026 17:36:44.327 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+15-Apr-2026 17:36:44.327 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/media/vishal/hdd/doctor/doctor/tomcat
+15-Apr-2026 17:36:44.327 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/media/vishal/hdd/doctor/doctor/tomcat
+15-Apr-2026 17:36:44.327 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/media/vishal/hdd/doctor/doctor/tomcat/temp
+15-Apr-2026 17:36:44.329 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+15-Apr-2026 17:36:44.594 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+15-Apr-2026 17:36:44.608 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [414] milliseconds
+15-Apr-2026 17:36:44.634 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+15-Apr-2026 17:36:44.634 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.54]
+15-Apr-2026 17:36:44.642 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/media/vishal/hdd/doctor/doctor/tomcat/webapps/host-manager]
+15-Apr-2026 17:36:44.871 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/vishal/hdd/doctor/doctor/tomcat/webapps/host-manager] has finished in [229] ms
+15-Apr-2026 17:36:44.871 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/media/vishal/hdd/doctor/doctor/tomcat/webapps/manager]
+15-Apr-2026 17:36:44.889 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/vishal/hdd/doctor/doctor/tomcat/webapps/manager] has finished in [18] ms
+15-Apr-2026 17:36:44.889 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/media/vishal/hdd/doctor/doctor/tomcat/webapps/ROOT]
+15-Apr-2026 17:36:45.095 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Apr-2026 17:36:45.098 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/vishal/hdd/doctor/doctor/tomcat/webapps/ROOT] has finished in [209] ms
+15-Apr-2026 17:36:45.099 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/media/vishal/hdd/doctor/doctor/tomcat/webapps/examples]
+15-Apr-2026 17:36:45.213 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/vishal/hdd/doctor/doctor/tomcat/webapps/examples] has finished in [114] ms
+15-Apr-2026 17:36:45.213 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/media/vishal/hdd/doctor/doctor/tomcat/webapps/docs]
+15-Apr-2026 17:36:45.225 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/media/vishal/hdd/doctor/doctor/tomcat/webapps/docs] has finished in [12] ms
+15-Apr-2026 17:36:45.228 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+15-Apr-2026 17:36:45.235 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [626] milliseconds
